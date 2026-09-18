@@ -1,0 +1,6 @@
+composer create-project laravel/laravel library
+.env 23 DB_CONNECTION=mysql
+php artisan migrate
+php artisan serve
+php artisan make:model
+php artisan make:model Book -a
